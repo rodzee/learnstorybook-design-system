@@ -18,7 +18,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "chromatic": "npx chromatic --project-token=chpt_b6f5a69f1b95b4c"
+    "_chromatic": "npx chromatic --project-token=chpt_b6f5a69f1b95b4c",
+    "chromatic": "chromatic --exit-zero-on-changes"
   },
   "devDependencies": {
     "@babel/core": "^7.22.5",
